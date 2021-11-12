@@ -1,0 +1,5 @@
+node_modules/
+.vscode/
+
+# scrap file for experimenting with SQL queries
+query_playground.sql
