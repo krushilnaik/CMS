@@ -7,7 +7,7 @@
 	"scripts": {
 		"dev": "nodemon index.js",
 		"start": "node index.js",
-		"db": "docker build ."
+		"db": "docker build -t employee-tracker . && docker run -d --name employeeTracker -p 80:80 employee-tracker"
 	},
 	"dependencies": {
 		"console.table": "^0.10.0",

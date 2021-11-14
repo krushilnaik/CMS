@@ -32,7 +32,6 @@ INSERT INTO
 VALUES
 	("Sales"),
 	("IT"),
-	("Bob"),
 	("Marketing"),
 	("HR");
 
@@ -40,12 +39,12 @@ INSERT INTO
 	Role (title, salary, department_id)
 VALUES
 	("Sales Manager", 100000, 1),
-	("HR Manager", 100000, 5),
+	("HR Manager", 100000, 4),
 	("IT Manager", 100000, 2),
 	("Salesperson", 50000, 1),
 	("Engineer", 900000, 2),
-	("Mascot", 30000, 4),
-	("Counselor", 80000, 5);
+	("Mascot", 30000, 3),
+	("Counselor", 80000, 4);
 
 -- INSERT INTO
 -- 	Employee (first_name, last_name, role_id, manager_id)
