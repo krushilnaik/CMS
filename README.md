@@ -1,3 +1,9 @@
+# Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [Employee Tracker](#employee-tracker)
+- [Setting up the database](#setting-up-the-database)
+
 # Employee Tracker
 
 [Video Demo](https://youtu.be/iDKgJeaHl8g)
