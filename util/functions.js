@@ -111,12 +111,12 @@ module.exports = {
 				r.title,
 				d.department_name AS department,
 				r.salary,
-				CONCAT_WS(' ', m.first_name, m.last_name) AS manager
+				CONCAT_WS(' ', COALESCE(m.first_name, "null"), m.last_name) AS manager
 			FROM
 				Employee e
 				JOIN Role r ON e.role_id = r.id
 				JOIN Department d ON r.department_id = d.id
-				JOIN Employee m ON e.manager_id = m.id;
+				LEFT JOIN Employee m ON e.manager_id = m.id;
 		`;
 
 		await runQuery(query);
