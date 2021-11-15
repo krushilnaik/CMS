@@ -111,7 +111,7 @@ async function init() {
 								name: 'managerID',
 								type: 'list',
 								message: "Who is the employee's manager? ",
-								choices: managers
+								choices: managers.concat([{ name: 'N/A', value: null }])
 							}
 						]);
 
