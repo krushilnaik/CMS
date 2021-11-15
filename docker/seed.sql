@@ -43,9 +43,14 @@ VALUES
 	("IT Manager", 100000, 2),
 	("Salesperson", 50000, 1),
 	("Engineer", 900000, 2),
-	("Mascot", 30000, 3),
+	("Mascot Manager", 30000, 3),
 	("Counselor", 80000, 4);
 
--- INSERT INTO
--- 	Employee (first_name, last_name, role_id, manager_id)
--- VALUES
+INSERT INTO
+	Employee (first_name, last_name, role_id, manager_id)
+VALUES
+	("Will", "Smith", 7, NULL),
+	("Augie", "Chung", 3, NULL),
+	("Jane", "Doe", 2, NULL),
+	("Krushil", "Naik", 5, 2),
+	("John", "Doe", 1, 3);
